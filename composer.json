@@ -14,6 +14,9 @@
 		"homepage": "https://multidimension.al",
 		"role": "Developer"
 	}],
+	"require": {
+		"cakephp/cakephp": "~3"
+	},
 	"autoload": {
 		"psr-4": {
 			"Seaff\\": "src"
