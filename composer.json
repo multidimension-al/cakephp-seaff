@@ -13,5 +13,10 @@
 		"name": "multidimension.al",
 		"homepage": "https://multidimension.al",
 		"role": "Developer"
-	}]
+	}],
+	"autoload": {
+		"psr-4": {
+			"Seaff\\": "src"
+		}
+	}
 }
