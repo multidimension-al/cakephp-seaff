@@ -3,7 +3,7 @@ CakePHP Plugin Implementing the Shopify Embedded App Frontend Framework by Micro
 
 Based on [SEAFF](https://github.com/microapps/Shopify-Embedded-App-Frontend-Framework) by [Microapps](http://microapps.com).
 
-# Installation
+## Installation
 
 You can install this plugin into your CakePHP application using [composer](http://getcomposer.org).
 
@@ -46,7 +46,7 @@ public $theme = 'Seaff';
 
 For more information about Themes, see this [page](http://book.cakephp.org/3.0/en/views/themes.html).
 
-# Improve CakePHP Performance
+## Improve CakePHP Performance
 
 Once you have a production ready CakePHP application, it is important to create symlinks to move all your webroot files (including this one) into your main webroot folder. This is easily done by running a command in terminal for CakaPHP.
 
