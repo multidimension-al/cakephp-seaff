@@ -1,6 +1,6 @@
 # CakePHP SEAFF Plugin
 
-[![Latest Stable Version](https://poser.pugx.org/multidimensional/cakephp-seaff/v/stable.svg)](https://packagist.org/packages/multidimensional/cakephp-seaff)
+[![Latest Stable Version](https://poser.pugx.org/multidimensional/cakephp-seaff/v/stable.svg)](https://packagist.org/packages/multidimensional/cakephp-seaff) [![Total Downloads](https://poser.pugx.org/multidimensional/cakephp-seaff/downloads)](https://packagist.org/packages/multidimensional/cakephp-seaff)
 
 CakePHP Plugin Implementing the Shopify Embedded App Frontend Framework by Microapps.
 
