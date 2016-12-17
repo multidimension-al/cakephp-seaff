@@ -21,13 +21,13 @@ composer require --prefer-dist multidimensional/cakephp-seaff
 Load the plugin by running following command in terminal:
 
 ```
-bin/cake plugin load Seaff
+bin/cake plugin load Multidimensional/Seaff
 ```
 
 Or by manually adding following line to your app's `config/bootstrap.php`:
 
 ```php
-Plugin::load('Seaff');
+Plugin::load('Multidimensional/Seaff');
 ```
 
 ## Usage
@@ -37,14 +37,14 @@ Add this in your Controller (requires CakePHP 3.1 or newer):
 ```php
 public function beforeRender(\Cake\Event\Event $event)
 {
-	$this->viewBuilder()->theme('Seaff');
+	$this->viewBuilder()->theme('Multidimensional/Seaff');
 }
 ```
 
 If using a version prior to 3.1, you can set the Theme using the following in your controller.
 
 ```php
-public $theme = 'Seaff';
+public $theme = 'Multidimensional/Seaff';
 ```
 
 For more information about Themes, see this [page](http://book.cakephp.org/3.0/en/views/themes.html).
