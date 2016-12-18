@@ -1,7 +1,7 @@
 {
 	"name": "multidimensional/cakephp-seaff",
 	"description": "Shopify Embedded App Frontend Framework (SEAFF) for CakePHP",
-	"version": "1.0.1-dev",
+	"version": "1.0.1",
 	"type": "cakephp-plugin",
 	"keywords": ["cakephp", "cakephp3", "shopify"],
 	"homepage": "https://github.com/multidimension-al/cakephp-seaff",

@@ -2,9 +2,7 @@
 
 [![Latest Stable Version](https://poser.pugx.org/multidimensional/cakephp-seaff/v/stable.svg)](https://packagist.org/packages/multidimensional/cakephp-seaff) [![Total Downloads](https://poser.pugx.org/multidimensional/cakephp-seaff/downloads)](https://packagist.org/packages/multidimensional/cakephp-seaff)
 
-CakePHP Plugin Implementing the Shopify Embedded App Frontend Framework by Microapps.
-
-Based on [SEAFF](https://github.com/microapps/Shopify-Embedded-App-Frontend-Framework) by [Microapps](http://microapps.com).
+CakePHP Plugin Implementing the [Shopify Embedded App Frontend Framework]((https://github.com/microapps/Shopify-Embedded-App-Frontend-Framework)) by [Microapps](http://microapps.com).
 
 ## Installation
 
@@ -32,22 +30,18 @@ Plugin::load('Multidimensional/Seaff');
 
 ## Usage
 
-Add this in your Controller (requires CakePHP 3.1 or newer):
+Add this in your Controller:
 
 ```php
-public function beforeRender(\Cake\Event\Event $event)
+// In a controller
+public function initialize()
 {
-	$this->viewBuilder()->theme('Multidimensional/Seaff');
+    parent::initialize();
+    $this->loadComponent('Multidimensional/Seaff.Seaff]);
 }
 ```
 
-If using a version prior to 3.1, you can set the Theme using the following in your controller.
-
-```php
-public $theme = 'Multidimensional/Seaff';
-```
-
-For more information about Themes, see this [page](http://book.cakephp.org/3.0/en/views/themes.html).
+For more information about Components, see this [page](http://book.cakephp.org/3.0/en/controllers/components.html).
 
 ## Improve CakePHP Performance
 
