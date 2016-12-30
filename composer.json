@@ -1,26 +1,26 @@
 {
-	"name": "multidimensional/cakephp-seaff",
-	"description": "Shopify Embedded App Frontend Framework (SEAFF) for CakePHP",
-	"version": "1.0.1",
-	"type": "cakephp-plugin",
-	"keywords": ["cakephp", "cakephp3", "shopify"],
-	"homepage": "https://github.com/multidimension-al/cakephp-seaff",
-	"authors": [{
-		"name": "microapps",
-		"homepage": "http://microapps.com/",
-		"role": "Developer"
-	}, {
-		"name": "multidimension.al",
-		"homepage": "https://multidimension.al",
-		"role": "Developer"
-	}],
-	"require": {
-		"cakephp/cakephp": "~3",
-		"multidimensional/cakephpify": "*"
-	},
-	"autoload": {
-		"psr-4": {
-			"Multidimensional\\Seaff\\": "src"
-		}
-	}
+    "name": "multidimensional/cakephp-seaff",
+    "description": "Shopify Embedded App Frontend Framework (SEAFF) for CakePHP",
+    "version": "1.0.1",
+    "type": "cakephp-plugin",
+    "keywords": ["cakephp", "cakephp3", "shopify"],
+    "homepage": "https://github.com/multidimension-al/cakephp-seaff",
+    "authors": [{
+        "name": "microapps",
+        "homepage": "http://microapps.com/",
+        "role": "Developer"
+    }, {
+        "name": "multidimension.al",
+        "homepage": "https://multidimension.al",
+        "role": "Developer"
+    }],
+    "require": {
+        "cakephp/cakephp": "~3",
+        "multidimensional/cakephpify": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Multidimensional\\Seaff\\": "src"
+        }
+    }
 }
